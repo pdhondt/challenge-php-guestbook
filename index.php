@@ -22,7 +22,8 @@ $currentGuestbookArray = $currentGuestbook->getGuestbookPosts();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    $new_post = new Post($_POST['title'], $_POST['date'], $_POST['content'], $_POST['author']);
+    $new_post = new Post(htmlspecialchars($_POST['title']), htmlspecialchars($_POST['date']), htmlspecialchars($_POST['content']),
+        htmlspecialchars($_POST['author']));
 
     //echo $new_post->getTitle();
     //echo $new_post->getDate();

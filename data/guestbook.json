@@ -76,5 +76,23 @@
         "date": "26\/02\/2021",
         "content": "show items in reversed order                ",
         "author_name": "Pedrito"
+    },
+    {
+        "title": "Good morning",
+        "date": "02\/03\/2021",
+        "content": "A beautiful new day                ",
+        "author_name": "Peter"
+    },
+    {
+        "title": "New Post",
+        "date": "07\/03\/2021",
+        "content": "Time to start with databases                ",
+        "author_name": "Peter"
+    },
+    {
+        "title": "Test x",
+        "date": "07\/03\/2021",
+        "content": "htmlspecialchars          ",
+        "author_name": "Peter"
     }
 ]
