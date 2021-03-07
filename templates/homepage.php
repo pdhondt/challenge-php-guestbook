@@ -45,7 +45,9 @@
             <legend>Guestbook entries</legend>
                 <ol>
                     <?php
-                    foreach (array_reverse($currentGuestbookArray) AS $i => $post): ?>
+                    foreach (array_reverse($currentGuestbookArray) AS $i => $post):
+                        if ($i < 20)
+                        ?>
                         <li><?php echo $post['title'] ?>, <?php echo $post['date'] ?>, <?php echo $post['content'] ?>,
                             <?php echo $post['author_name'] ?></li>
                     <?php endforeach;
